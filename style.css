@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: #8DB0F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 35%;
+    height: 35%;
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background-color: #1c4494;
+    color: #fff;
+    /* margin: 0 auto; */
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.search {
+    width: 100%;
+    height: 45px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search input[type=search] {
+    height: 45px;
+    border-radius: 15px;
+    padding: 0.5rem;
+    border: none;
+    outline: 0;
+    width: 80%;
+}
+
+#button-search {
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+#button-search img {
+    width: 25px;
+    height: 25px;
+}
+
+.date-time h2 {
+margin-bottom: 15px;
+}
+
+.weather-degrees {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.weather-degrees img {
+    width: 70%;
+}
+
+.weather-degrees h1.temp {
+    font-size: 3rem;
+}
+
+.weather-degrees h1.country {
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+.weather-details {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.humidity img,
+.speed img {
+    width: 30%;
+}
+.humidity, .speed {
+    width: 45%;
+    gap: 0.8rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.info {
+    font-size: 14px;
+}
+
+.weather-info {
+    display: none;
+}
+
+.error {
+    width: 100%;
+    display: none;
+}
+
+.error p{
+    text-align: left;
+}
