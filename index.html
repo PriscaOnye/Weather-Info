@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Information</title>
+</head>
+
+
+<body>
+
+    <main class="card">
+        <div class="search">
+            <input type="search" id="weather-search" name="weather-search" placeholder="Enter city name" spellcheck="false">
+            <button type="button" aria-label="search" id="button-search">
+                <img src="/images/search.png" alt="search Icon">
+            </button>
+        </div>
+
+        <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+
+        <section class="weather-info">
+            <div class="date-time">
+                <h2 class="date">Saturday, 29th July</h2>
+                <h2 class="time">3 : 05 pm</h2>
+            </div>
+
+            <div class="weather-degrees">
+                <img src="/images/snow.png" alt="weather" class="weather-img">
+                <h1 class="temp">32°C</h1>
+                <h1 class="country">Dubia</h1>
+            </div>
+
+            <div class="weather-details">
+                <div class="humidity">
+                    <img src="/images/humidity.png" alt="">
+                    <div class="info">
+                        <p class="percent-humid">50%</p>
+                        <p class="weather-label">Humidity</p>
+                    </div> 
+                </div>
+
+                <div class="speed">
+                    <img src="/images/wind.png" alt="">
+                    <div class="info">
+                    <p class="unit-speed">15 km/h</p>
+                        <p class="weather-label">Wind Speed</p> 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
