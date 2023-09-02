@@ -13,3 +13,4 @@ Weather App.
 - keyboard interaction
 - fun facts about location
 - show the date and time
+- change UI design
